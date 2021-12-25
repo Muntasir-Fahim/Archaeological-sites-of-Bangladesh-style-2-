@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7) url('../image/heritage.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    padding-top: 20px;
+}
+.logo{
+    box-shadow: 0px 0px 30px 10px #80808098;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.nav-content{
+    width: 100%;
+}
+.nav-content ul{
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+.nav-content ul li{
+    list-style-type: none;
+    /* margin: 0 auto; */
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    border: 5px solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* End Navigation */
+.shape{
+    display: none;
+}
+.heritage_site h1{
+    padding: 10px;
+    text-align: center;
+}
+.dotted{
+    width: 20%;
+    border: dotted;
+    border-bottom: none;
+    margin: 0 auto;
+    border-color: black;
+}
+.intro{
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+}
+.object{
+    margin-top: 10px;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.photo img{
+    border: 10px solid;
+    border-radius: 5px;
+    border-color: #ced4da #ced4da #adb5bd #adb5bd ;
+    width: 100%;
+    height: 100%;
+}
+.desc{
+    padding: 15px 20px;
+    margin-top: 20px;
+    background-color: #808080a8;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px 10px #8080804b;
+}
+.desc p{
+    text-align: center;
+    color: white;
+}
+.others{
+    margin-top: 25px;
+    /* height: 500px; */
+}
+.man-photo{
+    width: 35%;
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.man-photo img{
+    width: 150px;
+    height: 150px;
+}
+.man-photo p{
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.review{
+    width: 65%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    font-size: 0.9rem;
+}
+.location{
+    clear: both;
+    width: 100%;
+    height: 50%;
+}
+.location iframe{
+    width: 100%;
+    height: 100%;
+}
+.for_mobile{
+    width: 100%;
+    height: 200px;
+    height: 50%;
+    background-color: #00b4d8;
+    border-radius: 0 0 5px 5px ;
+    overflow: auto;
+}
+/* Start Archive */
+.archive_intro{
+    padding: 20px;
+}
+.archive_intro h1{
+    padding: 15px;
+    text-align: center;
+    font-size: 2rem;
+}
+.archive_main{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    /* border: 3px solid #00b4d8; */
+    /* border-radius: 10% 48% 10% 42% / 10% 42% 10% 49%; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transition: all .5s;
+}
+.archive_main:first-child{
+    margin-top: 10px;
+}
+/* .archive_main:nth-child(2){
+    padding-left: 200px;
+    padding-top: 200px;
+} */
+.archive_main img{
+    width: inherit;
+}
+.archive_desc{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+.archive_main:hover{
+    transform: scale(1.1);
+}
+/* Start blog */
+.blog_section{
+    margin-bottom: 20px;
+}
+.blog-intro{
+    padding: 20px;
+}
+.blog-intro h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+.blog{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 70px;
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.blog:hover{
+    transform: scale(1.01);
+}
+.b1{
+    margin-top: 0px;
+    background: rgba(0, 0, 0, .8) url('../image/sornargaon.jpg');
+    background-size: contain;
+    background-repeat: round;
+    background-blend-mode: darken;
+}
+.b2{
+    background: rgba(0, 0, 0, .8) url('../image/tajhat palace.jpg');
+    background-size: contain;
+    background-repeat: round;
+    background-blend-mode: darken;
+}
+.b3{
+    background: rgba(0, 0, 0, .8) url('../image/Hajiganj.jpg');
+    background-size: contain;
+    background-repeat: round;
+    background-blend-mode: darken;
+}
+/* End blog */
+/* End Main Section */
+
+/* Start Footer */
+footer{
+    background: rgba(0, 0, 0, .8) url('../image/colosseum.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+}
+.about{
+    clear: both;
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    /* justify-content: space-around; */
+}
+.about_photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: rgba(0, 0, 0, 0.281);
+    margin-left: 20%;
+}
+.about_photo img{
+    width: 100px;
+}
+.about_desc{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+.heading .dotted{
+    border-color: white;
+}
+.massage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 20px;
+    font-style: italic;
+}
+.contact{
+    display: none;
+}
+form{
+    text-align: center;
+}
+form input , #reset , #send{
+    width: 250px;
+    height: 30px;
+    margin-top: 5px;
+    border: white;
+    border-radius: 5px;
+    text-align: center;
+    font-style: italic;
+    color: gray;
+    transition: all .5s;
+}
+textarea{
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    resize: none;
+    cursor: text;
+    margin-top: 5px;
+    text-align: center;
+    padding: 5px;
+    font-style: italic;
+    color: gray;
+}
+#reset , #send{
+    width: 125px;
+    font-size: 1.1rem;
+}
+/* #reset:hover , #send:hover{
+    transform: scale(1.05);
+} */
+.end{
+    text-align: center;
+    font-size: 0.7rem;
+}
+/* Font */
+.details h1 , .archive_intro h1 , .blog-intro h1{
+    font-family: 'Handlee', cursive;
+    color: black;
+}
+.intro h2{
+    font-family: 'Righteous', cursive;
+}
+.desc , .heading , nav{
+    font-family: 'Roboto', sans-serif;
+}
+.review{
+    font-family: 'Merienda', cursive;
+}
+.man-photo p , .blog p{
+    font-family: 'Lobster', cursive;
+}
